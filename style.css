@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+	font-family: "Handlee", cursive;
+}
+.postal {
+	background-color: white;
+	width: 500px;
+	height: 350px;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 15px;
+}
+.header-postal {
+	overflow: hidden;
+	width: 100%;
+	height: 80px;
+}
+.postcar h1 {
+	margin: 0;
+	font-size: 40px;
+	float: left;
+}
+.section-postal {
+	overflow: hidden;
+}
+.izquierda-body {
+	float: left;
+	width: 50%;
+}
+.derecha-body {
+	float: right;
+	width: 50%;
+}
+.derecha-body input {
+	display: block;
+	border: none;
+	width: 200px;
+	border-bottom: 1px solid gray;
+	padding: 7px;
+	font-family: "Handlee", cursive;
+	margin-bottom: 10px;
+}
+input {
+	font-size: 18px;
+}
+.header-postal img {
+	max-width: 60px;
+	position: absolute;
+	top: 20px;
+	left: 450px;
+}
+.footer-postal input [type="submit"] {
+	border: none;
+	border-bottom: 1px solid rgb(57, 56, 56);
+}
+.footer-postal {
+	padding: 10px;
+	text-align: center;
+}
